@@ -7,12 +7,13 @@ class Triangle
       self.send("#{k}=", v)
     end
   end
+  end
 
   def self.kind
 
   end
 
-  Class TriangleError < StandardError
+  class TriangleError < StandardError
 
   end
 end
