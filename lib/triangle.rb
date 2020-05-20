@@ -13,6 +13,7 @@ class Triangle
       return :isosceles
     else
       return :scalene
+    end
   end
 
   class TriangleError < StandardError
