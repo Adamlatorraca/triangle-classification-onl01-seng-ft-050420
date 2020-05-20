@@ -7,7 +7,8 @@ class Triangle
   end
 
   def kind
-
+    if side_a == side_b == side_c
+      return :equilateral
   end
 
   class TriangleError < StandardError
