@@ -25,5 +25,6 @@ class Triangle
   class TriangleError < StandardError
     def message
       "The triangle is illegal"
+    end
   end
 end
