@@ -6,7 +6,7 @@ class Triangle
     @side_c = side_c
   end
 
-  def self.kind
+  def kind
 
   end
 
