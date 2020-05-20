@@ -7,7 +7,7 @@ class Triangle
   end
 
   def kind
-    if (self.side_a >= 1) && (self.side_b >= 1) && (self.side_a >= 1)
+    if (side_a <= 0) && (side_b <= 0) && (side_a <= 0)
       begin
         raise TriangleError
       rescue TriangleError => error
